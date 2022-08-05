@@ -1,0 +1,34 @@
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Single Day', cursive;
+}
+
+img {
+    transition: 1s ;
+    width: 400px;
+    height:400px;
+    object-fit: cover;
+}
+
+.myOwnContainer {
+    display: flex; 
+    justify-content: space-around;
+}
+.myOwnContainer p {
+    align-self: center;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 450px) {
+    h1 {
+        display: block;
+    }
+    .myOwnContainer {
+        display: block;
+    }
+    .myOwnContainer img {
+        width: 100%;
+    }
+    
+}
